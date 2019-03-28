@@ -9,12 +9,15 @@ git pull
 
 echo "git pull finish"
 
+docker-compose down
+
+docker image rm eurekadocker/eurekadocker
 
 #building
 echo "building"
 mvn package docker:build
 
-docker-compose down
+
 
 
 

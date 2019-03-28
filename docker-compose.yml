@@ -3,7 +3,7 @@ services:
   # 服务名称
   eurekaServer:
     # 镜像:版本
-    image: eurekadocker:eurekadocker
+    image: eurekadocker/eurekadocker
     # 映射容器80端口到本地80端口
     ports:
       - "8888:8888"
