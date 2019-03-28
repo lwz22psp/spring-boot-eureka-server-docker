@@ -7,8 +7,5 @@ services:
     # 映射容器80端口到本地80端口
     ports:
       - "8888:8888"
-    # 数据卷 映射本地文件到容器
-    networks:
-      - eureka-net
     environment:
       - spring.profiles.active=eurekaService
