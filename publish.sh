@@ -15,7 +15,7 @@ docker image rm eurekadocker/eurekadocker
 
 #building
 echo "building"
-mvn package docker:build
+mvn package docker:build -DskipTests
 
 
 
